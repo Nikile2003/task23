@@ -1,0 +1,135 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff; /* Light blue background */
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Form Container */
+.form-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 450px;
+  width: 100%;
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  color: #ff6f61; /* Coral color */
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+/* Input Fields */
+input,
+button {
+  font-size: 16px;
+  padding: 12px;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+/* Register/Login Button Colors */
+input[type="submit"], button {
+  background-color: #ff6f61; /* Coral */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover,
+button:hover {
+  background-color: #d24d3f; /* Darker Coral */
+}
+
+/* Alert for Error Messages */
+.alert {
+  background-color: #f8d7da; /* Light Red */
+  color: #721c24; /* Dark Red */
+  border-color: #f5c6cb;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Centering the Form */
+.auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Dashboard Styles */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.dashboard-container h1 {
+  color: #28a745; /* Green for success */
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+/* User Info Styling */
+.dashboard-container .user-info {
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Logout Button */
+.dashboard-container .logout-button {
+  background-color: #dc3545; /* Red for logout */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.dashboard-container .logout-button:hover {
+  background-color: #c82333; /* Darker Red */
+}
+
+/* Links Styling */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+  .form-container, .dashboard-container {
+    padding: 20px;
+    width: 100%;
+    max-width: 100%;
+  }
+}
